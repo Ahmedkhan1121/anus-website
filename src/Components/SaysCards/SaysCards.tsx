@@ -17,7 +17,7 @@ function SaysCards() {
 
 
                       {/* parent div */}
-                      <div>
+                      <div className='flex items-center justify-center gap-33 py-[20px]'>
                           {/* card1      child */}
                         <div className='flex flex-col gap-2 px-4 py-5 bg-[#F2F2F2] rounded-2xl shadow-lg'>
                             <div className='w-[260px] text-sm '><p>This platform brings people closer in the best way possible! From reconnecting with old friends to making new ones, every moment here feels special</p></div>
@@ -39,11 +39,13 @@ function SaysCards() {
         
                             </div>
                             {/* button */}
-                            <div><button>See More</button></div>
+                            
                            <div>
 
                            </div>
                         </div>
+
+                        <div><button className='text-[#FF5349] bg-[#F2F2F2] py-[12px] px-[24px] rounded-md shadow-lg'>See More</button></div>
                         {/* card2 child */}
                           <div className='flex flex-col gap-2 px-4 py-5 bg-[#F2F2F2] rounded-2xl shadow-lg'>
                             <div className='w-[260px] text-sm '><p>A social network that actually listens to its users! The design is sleek, the features are powerful, and the experience is seamless. I’m hooked!</p></div>
